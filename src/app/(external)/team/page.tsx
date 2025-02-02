@@ -51,7 +51,7 @@ export default function Page() {
                 borderRadius="md"
                 objectFit="cover"
                 width="100%"
-                maxWidth="250px" // Ensures consistent size
+                maxWidth="250px" 
                 height="250px"
               />
               {/* Name and Role */}
