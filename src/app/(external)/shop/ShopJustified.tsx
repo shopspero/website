@@ -123,7 +123,7 @@ export default function ShopJustified() {
               <ImageCarousel width={sizes} srcs={images} />
             </WrapItem>
             <WrapItem maxWidth={600}>
-              <VStack align="left" gap={10}>
+              <VStack align="left" gap={7}>
                 <Box textAlign="left">
                 The Justified Hoodie was inspired by Romans 3:24-26 which says 
                 &ldquo;justified by his grace as a gift, through the redemption that 
@@ -135,6 +135,9 @@ export default function ShopJustified() {
                 God&apos;s grace and how we have been justified at the cost of the precious 
                 blood of Jesus Christ.
                 </Box>
+                <Text textAlign="left">
+                  Price: <strong>$40</strong>
+                </Text>
                 <Box>
                   <form onSubmit={handleSubmit}>
                     <VStack gap={3}>

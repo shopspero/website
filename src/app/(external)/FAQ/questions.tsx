@@ -1,15 +1,15 @@
 import {
-    Box,
-    Container,
-    Heading,
-    VStack,
-    Text,
-    Accordion,
-    AccordionItem,
-    AccordionButton,
-    AccordionPanel,
-    AccordionIcon,
-  } from '@chakra-ui/react';
+  Box,
+  Container,
+  Heading,
+  VStack,
+  Text,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon, Link,
+} from '@chakra-ui/react';
   
   const FAQS = [
     {
@@ -18,7 +18,13 @@ import {
     },
     {
       question: 'What does the word "SPERO" mean?',
-      answer: 'In Latin, "SPERO" means "to hope." Our vision is inspired by Matthew 10:29-31, which reflects care for the insignificant.',
+      answer: <>
+        In Latin, "SPERO" means "to hope." Our vision is inspired by Matthew 10:29-31, which reflects care for the insignificant.<br/><br/>
+        {' '}If you want to learn more about our name, check out our{' '}
+        <Link href="https://shopspero.medium.com/what-does-spero-mean-8abf8394a91a" color="blue.500" isExternal>
+          Medium article
+        </Link>.
+      </>
     },
     {
       question: 'How much of the profits are donated?',

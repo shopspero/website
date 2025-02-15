@@ -185,6 +185,7 @@ export default function NavBar({ links }: Readonly<{ links: LinkInfo[] }>) {
                   as={NextLink}
                   href={link.href}
                   {...linkStyle}
+                  onClick={onClose}
                 >
                   {link.title}
                 </Link>
